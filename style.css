@@ -1,0 +1,353 @@
+body{
+    height: 100%;
+}
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Header styles */
+header {
+    background-color: #33ff66;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 60px;
+    font-size: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Dropdown styles */
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+}
+
+.submenu li {
+    margin: 5px 0;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    min-height: 50vh;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Slider styles */
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+    font-size: 18px;
+}
+
+.footer-contact p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social li {/* Add specific styles for the About Us section */
+    #about-content {
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+    
+    #about-content h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #about-content p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+    
+    /* You can customize the background color, fonts, spacing, and other styles as per your design preferences. */
+    
+    margin-top: 10px;
+}
+
+.footer-social img {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+/* Add more styling as needed */
+
+
+/* Add specific styles for the Procurement Department section */
+#procurement-content {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#procurement-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#procurement-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* You can customize the background color, fonts, spacing, and other styles as per your design preferences for the Procurement Department section. */
+/* Common styles for all department pages */
+#it-department-content,
+#hr-department-content,
+#marketing-department-content,
+#accounting-department-content {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+#it-department-content h1,
+#hr-department-content h1,
+#marketing-department-content h1,
+#accounting-department-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#it-department-content p,
+#hr-department-content p,
+#marketing-department-content p,
+#accounting-department-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* IT Department-specific styles */
+#it-department-content {
+    border-top: 2px solid #333;
+}
+
+/* HR Department-specific styles */
+#hr-department-content {
+    border-top: 2px solid #333;
+}
+
+/* Marketing Department-specific styles */
+#marketing-department-content {
+    border-top: 2px solid #333;
+}
+
+/* Accounting Department-specific styles */
+#accounting-department-content {
+    border-top: 2px solid #333;
+}
+/* Contact Us Page-specific styles */
+#contact-content {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+#contact-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Contact Form styles */
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form textarea {
+    height: 150px;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #555;
+}
+/* Login Page styles */
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#login-form {
+    text-align: left;
+}
+#login-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #dad2d2;
+    color: #0c0a0a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.login-options{
+    margin-top: 15px;
+}
+.login-options button {
+    background-color: black;
+}
+.login-options button a {
+    color: #33ff66;
+    text-decoration: none;
+    font-size: 12px;
+}
+.login-container::a{
+    color: white;
+}
+
+button#login-admin,
+button#login-guest {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button#login-admin:hover,
+button#login-guest:hover {
+    background-color: #555;
+}

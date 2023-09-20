@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IT Equipment Store</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="IT Equipment Store Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Department</a>
+                    <ul class="submenu">
+                        <li><a href="procurement.html">Procurement</a></li>
+                        <li><a href="accounting.html">Accountant</a></li>
+                        <li><a href="HR.html">HR</a></li>
+                        <li><a href="marketing.html">Marketing</a></li>
+                        <li><a href="IT.html">IT</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section id="home">
+            <h1><center> Khouzaim Tech </center></h1>
+            <center><h1>Welcome to Khouzaima Tech - Your Premier Destination for IT Equipment Solutions</h1></center>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="it1.jfif" alt="Slide 1">
+                    <img src="it2.png" alt="Slide 2">
+                    <img src="it3.jfif" alt="Slide 3">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Rest of the content (About Us, Departments, Contact) goes here -->
+    </main>
+    
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="footer-logo.png" alt="IT Equipment Store Logo">
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Information</h3>
+                <p>Email: khouzaimatech@gmail.com</p>
+                <p>Phone: +25086166642</p>
+                <p>Address: Gikondo, Kigali City, Rwanda</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/ndayishimiye.khabibullah"><img src="facebook.jpg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="twiter.png" alt="Twitter"></a></li>
+                    <li><a href="https://www.linkedin.com/in/ndayishimiye-habibu"><img src="linkedin.png" alt="LinkedIn"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slider img');
+        const slideCount = slides.length;
+    
+        function nextSlide() {
+            slides[currentSlide].style.opacity = 0;
+            currentSlide = (currentSlide + 1) % slideCount;
+            slides[currentSlide].style.opacity = 1;
+        }
+    
+        setInterval(nextSlide, 3000); // Change slide every 3 seconds (adjust as needed)
+    </script>
+    
+</body>
+</html>
